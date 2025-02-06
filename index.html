@@ -1,7 +1,154 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello World!</h1>
-    <p>这是我的个人主页</p>
-  </body>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>这里是sixiao的个人主页 / This is the personal homepage of Sixiao</title>
+    <style>
+        body { font-family: 'Helvetica', 'Arial', sans-serif; line-height: 1.6; margin: 0 auto; max-width: 800px; padding: 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; }
+        h2 { color: #34495e; }
+        h3 { color: #16a085; margin: 20px 0 10px; padding-left: 10px; border-left: 3px solid #3498db; } /* 新增年份标题样式 */
+        .section { margin-bottom: 30px; }
+        .contact { background: #f8f9fa; padding: 15px; border-radius: 5px; }
+        .paper-list li { margin-bottom: 10px; }
+        .intro { color: #7f8c8d; font-size: 1.1em; margin: 20px 0; } /* 自我介绍样式 */
+    </style>
+</head>
+<body>
+    <!-- 基本信息 -->
+    <header>
+        <h1>侍啸 (Xiao Shi)</h1>
+        <div class="contact">
+            📧 sixiaosmile@outlook.com, shixiao.shi@antgroup.com | 
+            🎓 <a href="https://scholar.google.com/citations?user=6LZ7Tr8AAAAJ&hl=zh-CN">Google Scholar</a>
+        </div>
+
+        <div class="intro">
+            <p>我目前在蚂蚁集团从事用户建模和大模型应用相关工作，致力提升大模型在下游应用的能力。硕士毕业于农科院信息所，主要关注计算机视觉和人脸识别相关研究。</p>
+            <p>I am currently working at Ant Group, focusing on user modeling and LLM applications, with the aim of enhancing the capabilities of LLMs in downstream applications. I obtained my master degree from the Agricultural Information Institute, Chinese Academy of Agricultural Sciences, where my research primarily focused on computer vision and face recognition.</p>
+        </div>
+    </header>
+
+    <!-- 教育背景 -->
+    <section class="section">
+        <h2>🎓 教育经历</h2>
+        <ul>
+            <li><strong>中国农业科学院 - 信息所</strong> - 管理科学与工程 硕士 (2019-2022)</li>
+            <li><strong>沈阳师范大学</strong> - 计算机科学与技术 学士 (2015-2019)</li>
+        </ul>
+        <h2>🎓 Educational Background</h2>
+        <ul>
+            <li><strong>Agricultural Information Institute, Chinese Academy of Agricultural Sciences</strong> - Master of Management Science and Engineering (2019-2022)</li>
+            <li><strong>Shenyang Normal University</strong> - Bachelor of Computer Science and Technology (2015-2019)</li>
+        </ul>
+    </section>
+
+    <!-- 工作经历 -->
+    <section class="section">
+        <h2>💼 工作经历</h2>
+        <ul>
+            <li>
+                <strong>高级算法工程师 - 蚂蚁集团</strong> (2023.2-至今)
+                <p>研究方向：用户序列技术、用户时序技术、大模型</p>
+                <p>工作方向：金融/保险风控、序列推荐、大模型应用</p>
+            </li>
+            <li>
+                <strong>算法工程师 - 度小满（原百度金融）</strong> (2022.7-2023.1)
+                <p>工作方向：风控技术、用户风险建模</p>
+            </li>
+            <li>
+                <strong>实习生 - 阿里巴巴达摩院</strong> (2021.6-2021.12)
+                <p>研究方向：人脸识别、迁移学习</p>
+            </li>
+        </ul>
+        <h2>💼 Professional Experience</h2>
+        <ul>
+            <li>
+                <strong>Senior Algorithm Engineer - Ant Group</strong> (2023.2-Present)
+                <p>Research Focus: User sequence technology, user time-series technology, LLM</p>
+                <p>Work Focus: Financial/insurance risk control, sequential recommendation, LLM applications</p>
+            </li>
+            <li>
+                <strong>Algorithm Engineer - Du Xiaoman (formerly Baidu Finance)</strong> (2022.7-2023.1)
+                <p>Work Focus: Risk control technology, user risk modeling</p>
+            </li>
+            <li>
+                <strong>Intern - Alibaba DAMO Academy</strong> (2021.6-2021.12)
+                <p>Research Focus: Face recognition, transfer learning</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 论文发表 -->
+    <section class="section">
+        <h2>📚 代表性论文 (Selected Publications)</h2>
+        
+        <h3>2025</h3>
+        <ul class="paper-list">
+            <li>
+                <strong>[In peer review]</strong> Shi., et al. 
+                "Temporal Reinforced Sequential Model: Discovering Trend and Periodicity in User Behavior Sequence" 
+                <a href="#">[PDF]</a> <a href="#">[Code]</a>
+            </li>
+            <li>
+                <strong>[In peer review]</strong> Shi., et al. 
+                "Learning to Embed Sparse User Time Series with Hardness-Aware Adaptive Masking" 
+                <a href="#">[PDF]</a> <a href="#">[Code]</a>
+            </li>
+        </ul>
+
+        <h3>2022</h3>
+        <ul class="paper-list">
+            <li>
+                <strong>[IEEE Transactions on Image Processing (TIP)]</strong> Xiao Shi, Xiujuan Chai, Jiake Xie, and Tan Sun. 
+                "Mc-gcn: a multi-scale contrastive graph convolutional network for unconstrained face recognition with image sets." 
+                <a href="#">[PDF]</a> <a href="#">[Code]</a>
+            </li>
+            <li>
+                <strong>[Computers and Electronics in Agriculture (CEA)]</strong> Shi, Xiao, Xiujuan Chai, Chenxue Yang, Xue Xia, and Tan Sun. 
+                "Vision-based apple quality grading with multi-view spatial network."
+                <a href="#">[PDF]</a>
+            </li>
+        </ul>
+
+        <h3>2021</h3>
+        <ul class="paper-list">
+            <li>
+                <strong>[ICCV 2021]</strong> Liu, Yuhao, Jiake Xie, Xia Shi, Yu Qiao, Yujie Huang, Yong Tang, and Xia Yang. 
+                "Tripartite information mining and integration for image matting."
+                <a href="#">[Project Page]</a>
+            </li>
+            
+        </ul>
+
+        <h3>2020</h3>
+        <ul class="paper-list">
+            <li>
+                <strong>[ECCV 2020]</strong> Xiao Shi, Chenxue Yang, Xue Xia, and Xiujuan Chai. 
+                "Deep cross-species feature learning for animal face recognition via residual interspecies equivariant network."
+                <a href="#">[PDF]</a> <a href="#">[Dataset]</a>
+            </li>
+            <li>
+                <strong>[Smart Agriculture]</strong> Xue Xia, Sun Qixin, Shi Xiao, and Chai Xiujuan. 
+                "Apple detection model based on lightweight anchor-free deep convolutional neural network."
+                <a href="#">[PDF]</a> <a href="#">[Dataset]</a>
+            </li>
+        </ul>
+
+        <h3>2019</h3>
+        <ul class="paper-list">
+            <li>
+                <strong>[CCDC 2020]</strong> Wei Qu, Xiao Shi, and Li Dongbao. 
+                "Malware classification system based on machine learning."
+                <a href="#">[PDF]</a> <a href="#">[Dataset]</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- 页脚 -->
+    <footer style="margin-top: 50px; text-align: center; color: #7f8c8d;">
+        © 2025 sixiao | 最后更新于 2025年2月
+    </footer>
+</body>
 </html>
